@@ -1,0 +1,8 @@
+Feature:
+				To validate Login Fuctionality of facebook
+Scenario:
+				To check with valid email and invalid password
+				
+	Given User have to opne chrome browser and facebook application
+	When To pass the valid email and invalid password to corresponding fields
+	Then To close Browser 
